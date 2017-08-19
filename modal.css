@@ -1,0 +1,74 @@
+.center {
+    margin-top:50px;
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+
+.slot-field .input-group,
+.intent-field .input-group {
+    width: 100%;
+}
+
+.modal-header {
+    color: #FFF;
+    background-color: #F37003;
+}
+button.btn.btn-default.btn-add-slot:hover,
+button.btn.btn-default.btn-remove-slot:hover{
+    background-color: #F37003;
+}
+
+#saveNode {
+    background-color:#F37003;
+    float:right;
+    width:50%;
+}
+
+#cancelNode {
+    background-color:#F37003;
+    float:left;
+    width:50%;
+}
+
+.btn.btn-default.btn-add-slot,
+.btn.btn-default.btn-remove-slot {
+    background-color:#F37003;
+    float:center;
+}
+
+.btn.btn-default.btn-add-slot:hover,
+.btn.btn-default.btn-remove-slot:hover {
+    background-color: #F3703B;
+}
+
+#saveNode:hover,
+#cancelNode:hover {
+    background-color: #F3703B;
+}
+
+.form-group .slot .slot-name,
+.form-group .slot .slot-entity {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    color: #4682B4;
+}
